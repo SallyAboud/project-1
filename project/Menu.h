@@ -6,7 +6,7 @@
 #include"PasswordManager.h"
 #include"FileHandler.h"
 using namespace std;
-class Menu :public FileHandler, public PasswordManager
+class Menu :public FileHandler
 {
 	void displayMainMenu();
 	void displayRecordList();

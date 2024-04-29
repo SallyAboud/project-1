@@ -9,7 +9,7 @@ using namespace std;
 int num;
 string newpass;
 void Menu::displayMainMenu() {
-	cout << "\t\tMain Menu\n 1-Add Record \n2-View Record \n3- Edit Record \n4-Delete Record \n5-Make New Password \n6-Display New Password \n7-Save Record To File \n8-Read Record From File \n9-Update File \n 10-Quit" << endl;
+	cout << "\t\tMain Menu\n1.Add Record\n2.View Record\n3.Edit Record\n4.Delete Record\n5.Make New Password\n6.Display New Password\n7.Save Record To File\n8.Read Record From File\n9.Update File\n10.Quit\n" << endl;
 	getUserChoice();
 }
 void Menu::displayRecordList() {

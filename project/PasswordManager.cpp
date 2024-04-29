@@ -2,10 +2,9 @@
 #include<iostream>
 #include <string>
 using namespace std;
-
-string PasswordManager:: getPassword() {
-	return password;
-}
 void PasswordManager:: setPassword(string newPassword) {
-	newPassword = password;
+	password = newPassword;
+}
+string PasswordManager::getPassword() {
+	return password;
 }

@@ -9,10 +9,13 @@ using namespace std;
 int main()
 {
 	Menu a,b,c;
+	string x;
 	a.addRecord();
+	cout << "enter the password: ";
+	cin >> x;
+	a.setPassword(x);
+	cout << a.getPassword()<<"\n";
 	a.saveToFile();
-	b.addRecord();
-	b.saveToFile();
-	c.addRecord();
-	c.saveToFile();
+	a.editRecord();
+	a.viewRecord();
 }
